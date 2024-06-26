@@ -1,0 +1,46 @@
+.p1{
+    display: flex;
+}
+.pp{
+    display: flex;
+}
+.p2{
+    flex: 2;
+    background-color: blue;
+}
+.p3{
+    flex: 3;
+    background-color: yellow;
+}
+.p4{
+    flex: 1;
+    background-color: red;
+}
+.p5{
+    flex: 4;
+    background-color: orange;
+}
+
+.d1{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    border-radius: 400px;
+}
+
+.d2{
+    height: 50%;
+    width: 50%;
+    background-color: brown;
+    border-radius: 200px;
+    
+}
+
+.pic{
+    width: 200px;
+    height: 150px;
+    position: sticky;
+    top: 2px;
+    z-index: -1;
+
+}

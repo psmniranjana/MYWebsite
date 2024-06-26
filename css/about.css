@@ -1,0 +1,19 @@
+.r1{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(140, 140, 186);
+    border-radius: 100px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.r2{
+    width: 100vw;
+    height: 80px;
+    background-color: blue;
+    position: sticky;
+    top: 5px;
+    left: 2px;
+    right: 2px;
+}
