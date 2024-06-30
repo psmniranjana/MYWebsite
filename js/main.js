@@ -26,11 +26,43 @@ console.log("malee"); //hidden subject
     //flow controllers
 
     var age = 20;
+    var salary = 20000;
 
     //true, fale , or a statement that generate true or false
-    if(age>18){     
+    if(age>21){     
         console.log("you are eligible");
+    }
+    else if(age>18){
+        console.log("You are ok");
+    }
+    else if(age>16){
+        console.log("You can't contact parents");
     }
     else{
         console.log("Call police");
     }
+
+    ///
+
+    //AND operator
+
+    if(age>18 && salary<15000){
+        console.log("You are eligible for the loan");
+    }
+
+     //OR operator
+
+     if(age>18 || salary<15000){
+        console.log("You are eligible for the loan 2");
+    }
+
+    //methods and functions
+
+    //how to get data from text input
+    function saveStudent(){
+        var name = document.getElementById('stdName').value;
+        console.log(name);
+    }
+
+    saveStudent(); //calling the function
+
